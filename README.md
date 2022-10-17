@@ -9,14 +9,14 @@ Operations:
 
 1. malloc <int size>
 
->malloc 10 // Comment: header at 0, payload from 1-10,
-footer at 11
+>malloc 10 // Comment: header at 0, payload from 1-10, footer at 11
+  
 1
->malloc 5 // Comment: header at 12, payload from 13-17,
-footer at 18
+>malloc 5 // Comment: header at 12, payload from 13-17, footer at 18
+ 
 13
->malloc 2 // Comment: header at 19, payload from 20-21,
-footer at 22
+>malloc 2 // Comment: header at 19, payload from 20-21, footer at 22
+ 
 20
 
 2. free <int index>
